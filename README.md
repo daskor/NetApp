@@ -1,5 +1,5 @@
-# NetApp
-Netapp health check with poshkeepass, i wanted a script that could check several netapp environments was secure and only required me to type a password once with no passwords inside the script.
+# NetApp 
+Netapp health check with poshkeepass, i wanted a Powershell script that could check several netapp environments at once, was secure and only required me to type a password once with no passwords inside the script.
 If you only have 1 or 2 systems and only want a fast way to check for lagtimes etc i uploaded another part without keepass.
 
 
