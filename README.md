@@ -25,7 +25,7 @@ If you only have 1 or 2 systems and only want a fast way to check for lagtimes e
 ##Commands
 
 #//To set up a new keepassdatabase use below command. If still having problem, check 'PoshKeePass' module getting started documents.
-#New-KeePassDatabaseConfiguration -DatabaseProfileName '*DATABASENAME*' -DatabasePath '*PATHNAME*\*KEEPASSINSTALLFOLDER*\*DATABASFOLDERNAME*\*DATABASENAME*.kdbx' -KeyPath 'C:\Proact\*KEEPASSINSTALLFOLDER*\*DATABASFOLDERNAME*\*DATABASENAME*.keyx' -UseMasterKey -Default
+#New-KeePassDatabaseConfiguration -DatabaseProfileName '*DATABASENAME*' -DatabasePath '*PATHNAME*\*KEEPASSINSTALLFOLDER*\*DATABASFOLDERNAME*\*DATABASENAME*.kdbx' -KeyPath 'C:\*KEEPASSINSTALLFOLDER*\*DATABASFOLDERNAME*\*DATABASENAME*.keyx' -UseMasterKey -Default
 
 #//To remove a keepassdatabaseconfig that went wrong use below command:
 #Remove-KeePassDatabaseConfiguration -DatabaseProfileName '*DATABASENAME*'
