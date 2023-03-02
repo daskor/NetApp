@@ -2,7 +2,7 @@
 Netapp health check with poshkeepass, i wanted a Powershell script that could check several netapp environments at once, was secure and only required me to type a password once with no passwords inside the script.
 If you only have 1 or 2 systems and only want a fast way to check for lagtimes etc i uploaded another part without keepass.
 
-
+Muc can be improved, working on a version thats easier to configure with more variable and less to edit
 #============================================================
 
 #//Prerequisites that need to be installed/done before using the script
