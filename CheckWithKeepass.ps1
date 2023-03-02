@@ -1,3 +1,6 @@
+#//The Import module can be left as is so they are properly loaded in if the server/computer/powershell is restarted where the script is located
+Import-Module DataONTAP -Force
+Import-Module PoShKeePass -Force
 
 #//Script-SETUP 
 
