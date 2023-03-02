@@ -24,25 +24,26 @@ If you only have 1 or 2 systems and only want a fast way to check for lagtimes e
 
 ##Commands
 
-#//To set up a new keepassdatabase use below command. If still having problem, check 'PoshKeePass' module getting started documents.
+#//To set up a new keepassdatabase use below command. If still having problem, check 'PoshKeePass' module´s "getting started" documents.
+
 #New-KeePassDatabaseConfiguration -DatabaseProfileName '*DATABASENAME*' -DatabasePath '*PATHNAME*\*KEEPASSINSTALLFOLDER*\*DATABASFOLDERNAME*\*DATABASENAME*.kdbx' -KeyPath 'C:\*KEEPASSINSTALLFOLDER*\*DATABASFOLDERNAME*\*DATABASENAME*.keyx' -UseMasterKey -Default
 
 #//To remove a keepassdatabaseconfig that went wrong use below command:
+
 #Remove-KeePassDatabaseConfiguration -DatabaseProfileName '*DATABASENAME*'
 
 #//To check if keepassdatabaseconfig is working properly use below command:
+
 #Get-KeePassEntry -DatabaseProfileName '*DATABASENAME*' -AsPlainText
 
 #//Run to install/reinstall Dataontap module, should be made a comment afterwards again with '#'.
+
 #Install-Module DataONTAP -Force -Verbose
 
 #//Run to install/reinstall Poshkeepass module, should be made a comment afterwards again.
+
 #Install-Module PoShKeePass -Force -Verbose
 
 #Ifproblems arise it could be to the default PowerShell "Get module" test below. If problem still persist look into updating powershell and the "PowerShellGet" module as this is the part that automaticly gets all the other modules.
+
 #Install-Module -Name PowerShellGet -Force -SkipPublisherCheck -AllowClobber
-
-
-#//The Import module can be left as is so they are properly loaded in if the server/computer/powershell is restarted where the script is located
-Import-Module DataONTAP -Force
-Import-Module PoShKeePass -Force
